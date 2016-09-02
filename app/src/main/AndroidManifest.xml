@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SeconderyActiviry"></activity>
+        <activity android:name=".SeconderyActiviry">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="codingmecahnics.com.hackathonpractice.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
