@@ -15,6 +15,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void onClickButton(View v){
         TextView text1 =(TextView) findViewById(R.id.textView2);
-        text1.setText("Don't click me");
+        text1.setText("Don't click me, i forbid you");
     }
 }
