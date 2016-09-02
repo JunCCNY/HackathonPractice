@@ -32,7 +32,8 @@
         android:id="@+id/button"
         android:layout_below="@+id/textView"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+        android:layout_alignParentStart="true"
+        android:onClick="onClickButton"/>
 
     <Button
         android:layout_width="wrap_content"
