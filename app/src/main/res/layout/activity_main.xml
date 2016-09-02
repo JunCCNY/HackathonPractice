@@ -44,7 +44,8 @@
         android:layout_toRightOf="@+id/button"
         android:layout_toEndOf="@+id/button"
         android:layout_marginLeft="62dp"
-        android:layout_marginStart="62dp" />
+        android:layout_marginStart="62dp"
+        android:onClick="goToNextActivity"/>
 
     <Button
         android:layout_width="wrap_content"
