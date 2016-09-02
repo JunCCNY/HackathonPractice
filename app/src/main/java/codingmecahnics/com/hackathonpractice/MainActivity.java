@@ -19,7 +19,7 @@ public class MainActivity extends AppCompatActivity {
         text1.setText("Don't click me, i forbid you, added by indrajit");
     }
 
-    public void goToNextActivity(View view) {
+    public void clickInjitbutton(View view) {
         Intent intent = new Intent(this, SeconderyActiviry.class);
         startActivity(intent);
     }
