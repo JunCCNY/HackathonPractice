@@ -7,4 +7,8 @@ public class Utility {
     public static final String noReturn() {
         return "No";
     }
+
+    public static final String yesReturn() {
+        return "yes";
+    }
 }
