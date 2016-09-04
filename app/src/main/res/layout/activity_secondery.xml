@@ -17,6 +17,7 @@
         android:background="#f0d74c"
         android:visibility="visible"
         android:clickable="false"
+        android:text="@string/login"
         android:layout_below="@+id/pwtextfield"
         android:layout_centerHorizontal="true"
         android:onClick="somefunction" />
