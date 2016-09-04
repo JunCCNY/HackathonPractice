@@ -1,7 +1,6 @@
 <resources>
     <string name="app_name">HackathonPractice</string>
     <string name="indrajit_button">Indrajit\'s Button</string>
-<<<<<<< HEAD
     <string name="title_activity_login">Sign in</string>
 
     <!-- Strings related to login -->
@@ -16,8 +15,5 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
-=======
-    <string name="login">Login</string>
 
->>>>>>> 57b1c04bfcded6ee4fa1422eb637f5e3a19503af
 </resources>
