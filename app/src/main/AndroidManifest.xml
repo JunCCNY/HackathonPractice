@@ -20,10 +20,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".SeconderyActiviry" />
-        <activity
-            android:name=".LoginActivity"
-            android:label="@string/title_activity_login"></activity>
+
+               <activity android:name=".SeconderyActiviry">
+                   <meta-data
+                        android:name="android.support.PARENT_ACTIVITY"
+                        android:value="codingmecahnics.com.hackathonpractice.MainActivity" />
+                </activity>
     </application>
 
 </manifest>
