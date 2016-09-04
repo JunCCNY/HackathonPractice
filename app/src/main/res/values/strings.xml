@@ -16,5 +16,6 @@
         completions."
     </string>
     <string name="loginscreen">LoginScreen</string>
+    <string name="pushme">PushMe</string>
 
 </resources>
