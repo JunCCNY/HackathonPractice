@@ -38,13 +38,14 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Button"
+        android:text="@string/loginscreen"
         android:id="@+id/button2"
         android:layout_alignTop="@+id/button"
         android:layout_toRightOf="@+id/button"
         android:layout_toEndOf="@+id/button"
         android:layout_marginLeft="62dp"
-        android:layout_marginStart="62dp" />
+        android:layout_marginStart="62dp"
+        android:onClick="gotologinscreen" />
 
     <Button
         android:layout_width="wrap_content"
