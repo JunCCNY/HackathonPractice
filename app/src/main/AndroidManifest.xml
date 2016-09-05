@@ -32,6 +32,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="codingmecahnics.com.hackathonpractice.MainActivity" />
         </activity>
+
+
         <activity android:name=".LoginActivity">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
@@ -49,6 +51,7 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+
 
         <activity
             android:name=".MapsActivity"
