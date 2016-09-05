@@ -17,5 +17,6 @@
     </string>
     <string name="loginscreen">LoginScreen</string>
     <string name="pushme">PushMe</string>
+    <string name="title_activity_maps">Map</string>
 
 </resources>
