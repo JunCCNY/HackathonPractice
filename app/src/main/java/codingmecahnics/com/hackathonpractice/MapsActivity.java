@@ -9,6 +9,7 @@ import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.FragmentActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
@@ -55,8 +56,8 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         mMap = googleMap;
 
         // Add a marker in Sydney and move the camera
-        LatLng ny = new LatLng(27.700769, 85.300140);
-        //LatLng ny = new LatLng(40.730610, -73.935242);
+        //LatLng ny = new LatLng(27.700769, 85.300140);
+        LatLng ny = new LatLng(40.730610, -73.935242);
         mMap.addMarker(new MarkerOptions().position(ny).title("Marker in NewYork"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(ny));
 
@@ -84,6 +85,9 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
             LatLng latLng = new LatLng(address.getLatitude(), address.getLongitude());
             mMap.addMarker(new MarkerOptions().position(latLng).title("Marker"));
             mMap.animateCamera(CameraUpdateFactory.newLatLng(latLng));
+        }
+        else{
+            Toast.makeText(this, 'a', Toast.LENGTH_SHORT);
         }
     }
 
