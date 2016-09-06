@@ -15,6 +15,11 @@ public class cloned {
     }
 
     public void masterfunc(){
-        
+        if(1==1){
+
+        }
+        else{
+            
+        }
     }
 }
