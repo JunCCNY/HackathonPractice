@@ -13,4 +13,8 @@ public class cloned {
     public void secondaddedfuc(){
 
     }
+
+    public void masterfunc(){
+        
+    }
 }
