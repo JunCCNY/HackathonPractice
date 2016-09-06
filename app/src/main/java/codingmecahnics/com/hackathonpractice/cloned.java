@@ -8,7 +8,9 @@ public class cloned {
 
     }
 
-    public void branchfunc(){
-        
+    public void branchfunc() {
+    }
+    public void secondaddedfuc(){
+
     }
 }
