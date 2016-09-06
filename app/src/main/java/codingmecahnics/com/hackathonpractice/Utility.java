@@ -11,4 +11,11 @@ public class Utility {
     public static final String yesReturn() {
         return "yes";
     }
+
+    public void somefunc(){
+
+    }
+    public void secondfn(){
+        
+    }
 }
