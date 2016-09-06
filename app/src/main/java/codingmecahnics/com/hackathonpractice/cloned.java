@@ -8,4 +8,8 @@ public class cloned {
     public void secondaddedfuc(){
         
     }
+
+    public void xyz(){
+        
+    }
 }
