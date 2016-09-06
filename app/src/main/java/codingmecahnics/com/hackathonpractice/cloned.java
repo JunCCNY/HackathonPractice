@@ -18,5 +18,9 @@ public class cloned {
         if(2==2){
 
         }
+
+        else{
+            
+        }
     }
 }
