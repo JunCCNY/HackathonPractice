@@ -18,5 +18,8 @@
     <string name="loginscreen">LoginScreen</string>
     <string name="gmap">Map</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_main_screen">main_screen</string>
+    <string name="title_activity_all_products">all_products</string>
+    <string name="title_activity_edit_product">EditProductActivity</string>
 
 </resources>
